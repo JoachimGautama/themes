@@ -1,0 +1,23 @@
+/**
+ * @name         AW add-on
+ * @description  personal add-on for lolpowerluke's AlanWalker theme.
+ * @author       JVY
+ * @version      0.1
+ * @source       https://github.com/lolpowerluke/bd-themes/blob/main/AlanWalkerTheme/alanWalker.theme.css
+ * @website      https://github.com/lolpowerluke
+*/
+.tutorialContainer_c96c45 {
+  position: sticky;
+  bottom: 0;
+  background-color: black !important;
+}
+.tutorialContainer_c96c45 .listItem_c96c45 {
+  margin: 0;
+}
+.footer_aa1bff {
+  margin-top: 8px;
+}
+
+.guilds_a4d4d9 {
+  margin-bottom: 111px;
+}
