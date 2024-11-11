@@ -34,8 +34,8 @@ merge with other file
 
   /*Theme Dependent Stuff*/
   --title-bar-content: "DISCORD";
-  --main-background: url("https://i.imgur.com/tt9snCk.png?1") center right
-    no-repeat; /*edit img later*/
+  --main-background: url("https://i.imgur.com/AnBEGz2.png") center right
+    no-repeat;
   --back-selected-dm-pic: url("https://i.imgur.com/17yVkjX.png") center right
     no-repeat;
   --home-button-background: url("https://i.imgur.com/AnBEGz2.png");
