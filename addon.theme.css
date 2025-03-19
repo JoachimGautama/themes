@@ -2,7 +2,7 @@
  * @name         AW add-on
  * @description  personal add-on for lolpowerluke's AlanWalker theme.
  * @author       JVY
- * @version      1.0.3
+ * @version      1.1.0
  * @source       https://github.com/lolpowerluke/bd-themes/blob/main/AlanWalkerTheme/alanWalker.theme.css
  * @website      https://github.com/lolpowerluke
 */
@@ -72,9 +72,9 @@
 
   /*Theme Dependent Stuff*/
   --title-bar-content: "GJX_JVY" !important;
-  --main-background: url("https://i.imgur.com/AnBEGz2.png") center right
+  --main-background: url("https://i.imgur.com/pbKjJeR.png") center right
     no-repeat !important;
-  --back-selected-dm-pic: url("https://i.imgur.com/17yVkjX.png") center right
+  --back-selected-dm-pic: url("https://i.imgur.com/4qk9FUU.png") center right
     no-repeat !important;
   --home-button-background: url("https://i.imgur.com/I0lWnI3.png") !important;
 
