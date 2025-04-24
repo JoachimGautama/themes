@@ -2,7 +2,7 @@
  * @name         AW add-on
  * @description  personal add-on for lolpowerluke's AlanWalker theme.
  * @author       JVY
- * @version      1.1.01
+ * @version      1.1.02
  * @source       https://github.com/lolpowerluke/bd-themes/blob/main/AlanWalkerTheme/alanWalker.theme.css
  * @website      https://github.com/lolpowerluke
 */
@@ -105,6 +105,8 @@
 
   /*Theme Dependent Stuff*/
   --title-bar-content: "GJX_JVY" !important;
+  /* header */
+  --chat-header-name-color: #00ff15af !important;
   /* background picture */
   --main-background: url("https://i.imgur.com/pbKjJeR.png") center right
     no-repeat !important;
