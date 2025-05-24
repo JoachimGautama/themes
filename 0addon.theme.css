@@ -88,7 +88,7 @@
 :root {
   /*title bar*/
   --title-bar-color: rgb(28, 133, 2) !important;
-  --chat-title-bar-color: rgb(28, 133, 2) !important;
+  --chat-header-name-color: rgb(35, 175, 0) !important;
 
   /*Theme Dependent Stuff*/
   --title-bar-content: "GJX_JVY" !important;
