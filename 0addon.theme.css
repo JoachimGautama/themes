@@ -1,5 +1,6 @@
 /**
  * @name         AW add-on GJX
+ * @version      1.0.0
  * @description  personal add-on for lolpowerluke's AlanWalker theme.
  * @author       JVY
  * @source       https://github.com/lolpowerluke/bd-themes/blob/main/AlanWalkerTheme/alanWalker.theme.css
@@ -66,13 +67,14 @@
 :root.theme-midnight,
 :root.theme-dark :root.theme-onyx,
 :root {
-  --version-1-3-6-3: none;
   /*title bar*/
   --title-bar-color: rgb(28, 133, 2) !important;
   --chat-header-name-color: rgb(35, 175, 0) !important;
 
   /*Theme Dependent Stuff*/
   --title-bar-content: "GJX_JVY" !important;
+  /* nav buttons CEASE */
+  --title-bar-lead-display: none;
   /* header */
   /* background picture */
   --main-background: url("https://i.imgur.com/pbKjJeR.png") center right
@@ -246,7 +248,7 @@
 .childWrapper__6e9f8 > svg {
   -webkit-mask: unset !important;
   background-image: var(--home-button-background) !important;
-  background-position: -7px -7px !important;
+  background-position: 2px 0px !important;
   background-size: 45px 45px !important;
   background-color: transparent !important;
 }
