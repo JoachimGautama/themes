@@ -1,6 +1,6 @@
 /**
  * @name         AW add-on GJX
- * @version      1.0.1
+ * @version      1.0.2
  * @description  personal add-on for lolpowerluke's AlanWalker theme.
  * @author       JVY
  * @source       https://github.com/JoachimGautama/themes/blob/main/0addon.theme.css
@@ -68,7 +68,7 @@
 :root.theme-dark :root.theme-onyx,
 :root {
   /*title bar*/
-  --title-bar-color: rgb(28, 133, 2) !important;
+  --title-bar-color: var(--chat-header-name-color) !important;
   --chat-header-name-color: rgb(35, 175, 0) !important;
 
   /*Theme Dependent Stuff*/
@@ -80,7 +80,7 @@
   --main-background: url("https://i.imgur.com/pbKjJeR.png") center right
     no-repeat !important;
   /* selected friends chat */
-  --back-selected-dm-pic: url("https://i.imgur.com/4qk9FUU.png") center right
+  --back-selected-dm-pic: url("https://i.imgur.com/4qk9FUU.png") center right 
     no-repeat !important;
   /* home button to friends list */
   --home-button-background: url("https://i.imgur.com/I0lWnI3.png") !important;
@@ -183,9 +183,10 @@
   --typing-border: rgb(122, 122, 122) !important;
   --border-zoom: rgb(121, 121, 121) !important;
   --back-activity-panels: rgb(91, 65, 112) !important;
+  /*background gradient here*/
   --back-gradient-opacity: 1 !important;
-  --back-gradient-top: 56, 1, 82 !important;
-  --back-gradient-bottom: 0, 40, 0 !important;
+  --back-gradient-top: 102, 0, 102 !important;
+  --back-gradient-bottom: 0, 60, 0 !important;
   --profile-gradient-button-color: rgba(47, 2, 90, 0.829) !important;
 
   /*menu*/
@@ -252,6 +253,33 @@
   background-size: 45px 45px !important;
   background-color: transparent !important;
 }
+
+/* bg selected DM this code mirrors the current DM chat background picture */
+/*
+#app-mount .wrapper__2ea32.modeSelected__2ea32 .link__2ea32,
+#app-mount .channel__972a0 .selected_bf202d {
+  position: relative;
+  background: none !important;
+  background-color: transparent;
+
+  &::before {
+    content: "";
+    position: absolute; 
+    inset: 0;
+    background: var(--back-selected-dm-pic);
+    background-size: cover;
+    background-position: var(--back-pos-dm);
+    transform: rotate(180deg);
+    z-index: -1;
+  }
+
+  .name__2ea32,
+  .subText__20a53,
+  .name__20a53 {
+    color: var(--dm-selected-color);
+  }
+}
+*/
 
 .embedFull_b0068a {
   border-color: #802b8c !important;
